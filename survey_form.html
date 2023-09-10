@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* Basic styling for the form */
+  body {
+    font-family: Arial, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  form {
+    border: 1px solid #ccc;
+    background-color: rgb(242, 244, 244);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  h1 {
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    background-color: orangered;
+    margin-bottom: 0%;
+  }
+</style>
+</head>
+<body>
+<div class ='form'>
+    <h1 >Survey</h1>
+
+    <form method="post" action="http://localhost/MyProject/process.php">
+      
+      <label for="q1">Question 1: How satisfied are you with our service?</label>
+  <br>
+  <input type="radio" name="q1" value="satisfied"> Satisfied
+  <br>
+  <input type="radio" name="q1" value="neutral"> Neutral  <br>
+  <input type="radio" name="q1" value="dissatisfied"> Dissatisfied  <br>
+  <input type="radio" name="q1" value="others"> Others  <br>
+  <input type="text" name="q1_other_details"  placeholder="Please specify">  <br>
+
+  <br>
+
+  <label for="q2">Question 2: Which product do you prefer?</label>  <br>
+  <input type="radio" name="q2" value="product1"> Product 1  <br>
+  <input type="radio" name="q2" value="product2"> Product 2  <br>
+  <input type="radio" name="q2" value="product3"> Product 3  <br>
+  <input type="radio" name="q2" value="others"> Others  <br>
+  <input type="text" name="q2_other_details" placeholder="Please specify">  <br>
+
+  <br>
+
+  <label for="q3">Question 3: How likely are you to recommend us?</label>  <br>
+  <input type="radio" name="q3" value="likely"> Likely  <br>
+  <input type="radio" name="q3" value="neutral"> Neutral  <br>
+  <input type="radio" name="q3" value="unlikely"> Unlikely  <br>
+
+  <br>
+
+  <label for="q4">Question 4: What is your preferred contact method?</label>  <br>
+  <input type="radio" name="q4" value="email"> Email  <br>
+  <input type="radio" name="q4" value="phone"> Phone  <br>
+  <input type="radio" name="q4" value="mail"> Mail  <br>
+
+  <br>
+
+  <input type="submit" name="submit" value="Submit">  <br>
+</form>
+
+</div>
+</body>
+</html>
