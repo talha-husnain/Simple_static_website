@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="log-in.css">
+</head>
+
+<body>
+    <div class="center">
+        <img src="log in image.jpeg" alt="log in logo">
+        <br>
+        <form action="http://localhost/MyProject/login.php" method="post">
+            <label for="username">Username:</label>
+            <br>
+            <input type="text" id="username" name="loggedInName" placeholder="Enter your name" required>
+            <br>
+            <label for="password">Password:</label>
+            <br>
+            <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+            <br>
+            <label for="retypedPass">Retype Password:</label>
+            <br>
+            <input type="password" id="retypedPass" name="retypedPass" placeholder="Retype Password" required>
+            <br>
+            <br>
+            <button type="submit" id="signUpButton" value="Submit" disabled>Login</button>
+        </form>
+    </div>
+    <script src="my-project.js" defer></script>
+</body>
+
+</html>

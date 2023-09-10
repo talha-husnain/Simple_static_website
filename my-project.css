@@ -1,0 +1,86 @@
+html,
+body {
+    height: 100%;
+    margin: 5px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(254, 248, 249);
+    align-items: center;
+    height: 20%;
+    padding-right: 10px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: brown;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 1px 1px 2px red;
+} 
+
+h3 {
+    text-align: center;
+}
+
+p {
+
+font-family:Arial, Helvetica, sans-serif;
+font-size: 20px;
+
+}
+
+button {
+    color: red;
+}
+
+.flags {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+}
+.item {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+}
+
+
+.lawyerimg {
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%; }
+
+#lexcelimg {
+    width: 150px;
+    height: 80px;
+    margin-left: 12.5cm;
+}
+
+#middle {
+text-align: right;
+}
+
+.navbar{
+    display: flex; /* this is for an horizontal layout */
+    justify-content: space-around; /* Space items*/
+    align-items: center; /* Align items vertically in the center */
+    padding: 10px; 
+}
+.navbar a {
+    color: black; /* i use it to change the color of the links from blue to black*/
+    text-decoration: none; /* Remove underline from links */
+}
+.navbar a:hover {
+    color: red; /* Change color to red when i put the mouse on it */
+}
+
